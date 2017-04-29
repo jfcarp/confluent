@@ -12,3 +12,7 @@ connect
 
 control-center
 ./bin/control-center-start ./etc/confluent-control-center/control-center.properties
+
+schema registry
+./bin/schema-registry-start ./etc/schema-registry/schema-registry.properties 
+
